@@ -160,10 +160,27 @@ header .navbar ul li a:hover{
     font-size: 1.2rem;
     transition: all 0.2s linear;
 }
-.home .share a:hover{
-    background: rgba(255, 255, 255, 0.5);
-    color: #555;
+.home .share a:nth-child(1):hover{
+    background: #3B5998;
 }
+
+.home .share a:nth-child(3):hover{
+    background: #4E433C;
+}
+
+.home .share a:nth-child(2):hover{
+    background: #33CCFF;
+}
+
+.home .share a:nth-child(4):hover{
+    background: #910101;
+}
+
+.home .share a:nth-child(5):hover{
+    background: #212121;
+}
+
+
 
 /* about  */
 .about .content h3{
